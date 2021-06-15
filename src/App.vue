@@ -2,7 +2,7 @@
   <div id="app">
     <router-view/>
     <div id="nav">
-      <router-link to="/">首页</router-link>
+      <router-link to="/production">首页</router-link>
       <router-link to="/about">关于我们</router-link>
     </div>
   </div>
@@ -16,6 +16,15 @@ body {
   margin: 0;
   height: 100%;
 }
+.icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: -0.15em;
+    font-size: 24px;
+    fill: currentColor;
+    overflow: hidden;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
